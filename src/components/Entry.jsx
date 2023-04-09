@@ -14,7 +14,7 @@ const Entry = () => {
         </div>
         <ul className="flex gap-3">
           <li className=" h-4 text-sm">
-            <h3>Author</h3>
+            <h3>Author</h3> 
           </li>
           <li className=" h-4 text-sm">
             <h3>Footer</h3>
