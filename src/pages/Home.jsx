@@ -1,5 +1,6 @@
 import React from "react";
 import Entry from "../components/Entry";
+import Cubes from "../components/Cubes";
 
 const Home = () => {
   return (
@@ -15,8 +16,8 @@ const Home = () => {
       </section>
       <ul className="flex-col py-40 items-center">
         <li>
-          <section >
-            <div >
+          <section>
+            <div>
               <Entry entryNumber={1} />
             </div>
           </section>
@@ -27,6 +28,9 @@ const Home = () => {
               <Entry entryNumber={2} />
             </div>
           </section>
+        </li>
+        <li>
+          <Cubes />
         </li>
       </ul>
     </div>
