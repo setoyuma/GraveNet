@@ -15,7 +15,6 @@ const Navbar = () => {
             >
               Github
             </a>
-            <Link className=" transition-opacity delay-50 bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-x text-white px-4 py-2 rounded-md ml-8" to={"/logs"}>Logs</Link>
           </li>
         </ul>
       </nav>

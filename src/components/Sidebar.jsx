@@ -11,8 +11,11 @@ const Sidebar = () => {
 			  <Link to={"/"}>
 				  Home
 			  </Link>
-			  <Link to={"/"}>
-				  Home
+			  <Link to={"/logs"}>
+				  Logs
+			  </Link>
+			  <Link to={"/experiments"}>
+				  Experiments
 			  </Link>
 		  </Menu>
 	</div>
