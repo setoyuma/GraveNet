@@ -8,10 +8,10 @@ const Sidebar = () => {
   return (
 	  <div>
 		  <Menu className=" animate-gradient-xy">
-			  <Link to={"/home"}>
+			  <Link to={"/"}>
 				  Home
 			  </Link>
-			  <Link to={"/home"}>
+			  <Link to={"/"}>
 				  Home
 			  </Link>
 		  </Menu>
