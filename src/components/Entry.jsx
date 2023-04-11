@@ -3,7 +3,7 @@ import React from "react";
 const Entry = ({ children } ) => {
   return (
     <div className="mx-auto flex max-w-screen-sm items-center justify-center">
-      <div className=" w-full rounded-md bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-xy p-1">
+      <div className=" w-full rounded-md  bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-xy p-1">
         <div class="flex h-full w-full items-center justify-center bg-black">
           <h1 class="text-2xl font-black text-white p-4">{ children }</h1>
         </div>

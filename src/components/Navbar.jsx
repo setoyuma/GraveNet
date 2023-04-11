@@ -9,12 +9,28 @@ const Navbar = () => {
         <ul className="flex items-center">
           <li>
             <a
-              className=" transition-opacity delay-50 bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-x text-white px-4 py-2 rounded-md ml-8"
+              className="text-white px-2 inline-block"
               href="https://github.com/setoyuma/GraveNet"
               target={"_blank"}
             >
               Github
             </a>
+          </li>
+          <h1>|</h1>
+          <li >
+            <Link to={"/experiments"}><p className="px-2 bg-transparent shadow-lg transition-shadow duration-700 delay-50 ease-in-out hover:shadow-fuchsia-600">Experiments</p></Link>
+          </li>
+          <h1>|</h1>
+          <li >
+            <Link to={"/logs"}><p className="px-2 bg-transparent shadow-lg transition-shadow duration-700 delay-50 ease-in-out hover:shadow-fuchsia-600">Logs</p></Link>
+          </li>
+          <h1>|</h1>
+          <li >
+            <Link to={"/community"}><p className="px-2 bg-transparent shadow-lg transition-shadow duration-700 delay-50 ease-in-out hover:shadow-fuchsia-600">Community</p></Link>
+          </li>
+          <h1>|</h1>
+          <li >
+            <Link to={"/lifeforms"}><p className="px-2 bg-transparent shadow-lg transition-shadow duration-700 delay-50 ease-in-out hover:shadow-fuchsia-600">Lifeforms</p></Link>
           </li>
         </ul>
       </nav>
