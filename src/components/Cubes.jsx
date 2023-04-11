@@ -2,6 +2,7 @@ import { Canvas, useFrame } from "react-three-fiber";
 
 import React, { useRef } from "react";
 import { MeshPhongMaterial, OctahedronGeometry } from "three";
+import { OrbitControls } from "@react-three/drei";
 
 const Cubes = () => {
   const MyRotatingSquare = () => {
@@ -24,6 +25,7 @@ const Cubes = () => {
   return (
     <div className="h-96">
       <Canvas>
+        <OrbitControls />
         <MyRotatingSquare />
         <ambientLight intensity={0.1} />
         <directionalLight />
