@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className=" px-4 py-4 mb-12 flex justify-between shadow-lg hover:shadow-gray-500 transition-shadow ease-in-out delay-50 duration-700 bg-black text-white">
-        <Link to={"/home"} className=" text-2xl">Gravenet</Link>
+        <Link to={"/"} className=" text-2xl">Gravenet</Link>
         <ul className="flex items-center">
           <li>
             <a
