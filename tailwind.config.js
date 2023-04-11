@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "background": "url(./images/bg.jpg)",
+        "background": "url(./images/bg.png)",
       },
       animation: {
         "gradient-x": "gradient-x 10s ease infinite",

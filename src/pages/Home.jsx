@@ -21,7 +21,7 @@ const Home = () => {
           <li>
             <section>
               <div>
-                <Entry entryNumber={1} />
+                <Entry entryNumber={1} ><code>hello</code></Entry>
               </div>
             </section>
           </li>

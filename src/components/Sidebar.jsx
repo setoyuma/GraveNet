@@ -26,6 +26,9 @@ const Sidebar = () => {
 				<Link to={"/lifeforms"}>
 					Lifeforms
 				</Link>
+				<Link to={"/login"}>
+					Logout
+				</Link>
 			</Menu>
 		</div>
 	);

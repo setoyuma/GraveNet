@@ -8,6 +8,7 @@ import Experiments from './pages/Experiments';
 import Skull from './pages/Skull';
 import Community from './pages/Community';
 import Lifeforms from './pages/Lifeforms';
+import Login from './pages/Login';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
         <Route path='/logs' element={<Logs />} />
         {/* <Route path='/xjzvf' element={<Skull />} /> */}
         <Route path='/experiments' element={<Experiments />} />

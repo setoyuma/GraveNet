@@ -9,13 +9,14 @@ const Entry = ({ children } ) => {
         </div>
         <ul className="flex gap-3">
           <li className=" h-4 text-sm">
-            <h3>Author</h3> 
+            <h3>&rarr;@seto</h3> 
           </li>
           <li className=" h-4 text-sm">
-            <h3>Footer</h3>
+            <h3>Posted : 4/11 11:51AM</h3>
           </li>
           <li className=" h-4 text-sm">
-            <h3>Info</h3>
+            <h3>Gravenet</h3>
+            
           </li>
         </ul>
       </div>
