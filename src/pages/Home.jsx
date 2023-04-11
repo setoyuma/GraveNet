@@ -7,7 +7,7 @@ const Home = () => {
     <div className=" text-5xl text-white h-36">
       <section className=" flex justify-center">
         <div className="mx-auto flex max-w-screen-sm items-center justify-center">
-          <div className="w-full rounded-md bg-gradient-to-r from-fuchsia-400 to-gray-800 p-1">
+          <div className="bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-xy text-6xl text-white inline-blockalign-middle p-1">
             <div className="flex h-full w-full items-center justify-center bg-black">
               <h1>Home</h1>
             </div>
@@ -22,7 +22,7 @@ const Home = () => {
             </div>
           </section>
         </li>
-        <li className="py-20">
+        <li className=' my-6'>
           <section>
             <div>
               <Entry entryNumber={2} />
