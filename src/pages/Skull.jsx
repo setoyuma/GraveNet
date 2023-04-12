@@ -7,7 +7,7 @@ import Sidebar from '../components/Sidebar';
 
 const Skull = () => {
 	const Scene = () => {
-		const fbx = useLoader(FBXLoader,"Skull2.fbx")
+		const fbx = useLoader(FBXLoader,"some_bullshit.fbx")
 		return (
 			<primitive object={fbx} scale={ 0.03} />
 		)

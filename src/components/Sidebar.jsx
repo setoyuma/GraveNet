@@ -17,9 +17,9 @@ const Sidebar = () => {
 				<Link to={"/experiments"}>
 					Experiments
 				</Link>
-				{/* <Link to={"/xjzvf"}>
+				<Link to={"/xjzvf"}>
 					XJZVF
-				</Link> */}
+				</Link>
 				<Link to={"/community"}>
 					Community
 				</Link>

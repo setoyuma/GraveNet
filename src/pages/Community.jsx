@@ -7,8 +7,8 @@ const Community = () => {
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		alert(`You Typed ${value}`)
-	}
+		alert(`You Typed ${value}`);
+	};
 	return (
 		<div>
 			<Sidebar />

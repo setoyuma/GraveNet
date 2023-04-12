@@ -1,6 +1,6 @@
 import React from "react";
 import Entry from "../components/Entry";
-import Cubes from "../components/Cubes";
+import Cubes from "../components/life_forms/Cubes";
 import Sidebar from '../components/Sidebar';
 
 const Home = () => {
@@ -17,18 +17,18 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <ul className="flex-col py-40 items-center">
+        <ul className="flex-col py-96 items-center">
           <li>
             <section>
               <div>
-                <Entry entryNumber={1} ><code>hello</code></Entry>
+                <Entry title={""} entryNumber={1} ><code>ajdojadpo</code></Entry>
               </div>
             </section>
           </li>
           <li className=' my-6'>
             <section>
               <div>
-                <Entry entryNumber={2} />
+                <Entry title={""} entryNumber={2} />
               </div>
             </section>
           </li>

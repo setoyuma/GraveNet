@@ -1,7 +1,33 @@
 @tailwind base;
+/* Firefox */
+* {
+  --secondary: rgb(0, 0, 0);
+  --primary: rgb(255, 255, 255);
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: radial-gradient(circle, rgb(44, 154, 182) 0%, rgb(167, 37, 160) 100%);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 30px;
+  border: 1px solid var(--primary);
+}
 @tailwind components;
 @tailwind utilities;
 
+
 body {
   background-color: black;
+  max-width: 100%;
+  overflow-x: hidden;
 }
