@@ -1,19 +1,40 @@
-import React from 'react'
+import React from 'react';
+import LFSlider from '../components/life_forms/LifeformSlider';
 
 const Login = () => {
-  return (
-	  <div className='text-white'>
-		  <ul>
-			  <li>
-				  <div>
-					  <div className=' bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-xy text-6xl text-white inline-blockalign-middle p-1'>
-						  <h3>LOGIN</h3>
-					  </div>
-				  </div>
-			  </li>
-		  </ul>
-	</div>
-  )
-}
+	return (
+		<div className='text-white'>
+			{/* <LFSlider /> */}
+			<ul>
+				<li>
+					<div className=' bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-xy text-6xl text-white inline-blockalign-middle p-1'>
+						<div className='bg-black'>
+							<h3>LOGIN</h3>
+						</div>
+					</div>
+				</li>
+				<li className='bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-x w-96 my-32 h-1/2 flex justify-center rounded-2xl'>
+					<div className='h-96 w-72 p-1 my-16 bg-black rounded-lg'>
+						<h3 className='text-white'>Gravenet</h3>
+						<hr />
+						<form className=' my-10 inline-block p-1'>
+							<div className='flex-col'>
+								<ul className='text-black'>
+									<li className=' border-2 border-white'>
+										<input className='w-60' type="text" name="username" placeholder='username' />
+									</li>
+									<li className=' border-2 border-white my-6'>
+										<input className='w-60' type="text" name="username" placeholder='password' />
+									</li>
+								</ul>
+							</div>
+							<input className='hover:shadow-lg hover:shadow-white transition-shadow duration-700 delay-75 ease-in-out cursor-pointer border-2 p-2 w-32 my-32 float-right rounded-lg' type="submit" value="Login" />
+						</form>
+					</div>
+				</li>
+			</ul>
+		</div>
+	);
+};
 
-export default Login
+export default Login;
