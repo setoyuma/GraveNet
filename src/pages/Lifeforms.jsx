@@ -10,16 +10,23 @@ import Showcase from '../components/Showcase';
 const Lifeforms = () => {
 	return (
 		<div>
-			<div className='absolute right-0'>
-				<div className=' text-white'>
-					<Showcase>
-						<div>
-							<h3>Hello</h3>
-						</div>
-					</Showcase>
-				</div>
+			<div className='float-right'>
+				<ul >
+					<li>
+						<form >
+							<input className='float-right my-3 w-96' type="text" placeholder='search lifeforms' />
+						</form>
+					</li>
+					<li className='float-left'>
+						<Showcase>
+							<div className='text-white h-full'>
+								<h3>Hello</h3>
+							</div>
+						</Showcase>
+					</li>
+				</ul>
 			</div>
-			<div className='flex space-between absolute top-60'>
+			<div className='flex space-between absolute top-64 px-2'>
 				<Showcase footer_info={"12345 Experiments Cleared"} what_to_showcase={"Recent Life"}>
 					<table className='w-full h-auto text-white'>
 						<colgroup>
@@ -58,15 +65,15 @@ const Lifeforms = () => {
 					</table>
 				</Showcase>
 			</div>
-			<div className='absolute top-3/4'>
+			<div className='absolute top-3/4 px-2'>
 				<Showcase what_to_showcase={"Top Researchers"} footer_info={"12345 Lifeforms Documented"}>
 
 				</Showcase>
 			</div>
 			<Sidebar />
-			<div className='flex justify-center'>
+			<div className='mx-96 flex justify-center'>
 				<div className=' bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-x p-1 rounded-sm'>
-					<ul className='bg-background inline-block px-60 py-6'>
+					<ul className='bg-background inline-block px-48 py-6'>
 						<li className='flex justify-center'>
 							<div>
 								<div className=' bg-gradient-to-r from-teal-700 via-fuchsia-500 to-black animate-gradient-xy text-6xl text-white inline-blockalign-middle p-1'>
