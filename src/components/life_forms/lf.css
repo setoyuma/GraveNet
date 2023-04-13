@@ -6,18 +6,20 @@
 }
 
 .item img {
-    width: 100%;
+	width: 100%;
     height: 100%;
     border-radius: 2rem;
 }
 
 .inner-carousel {
-    display: flex;
-    background: blue;
-    width: inherit;
+	display: flex;
+	background: rgb(0, 0, 0);
 }
 
 .carousel {
+	display: flex;
     cursor: grab;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+	width: 500px;
+	overflow: hidden;
 }

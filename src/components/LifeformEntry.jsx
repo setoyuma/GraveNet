@@ -7,6 +7,7 @@ import { OrbitControls } from '@react-three/drei';
 import { ObjectLoader } from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import * as THREE from 'three'
+import Showcase from './Showcase';
 
 const LifeformEntry = ({ model_path, model_type, life_form_name }) => {
 	const GLTFScene = ({ path }) => {
@@ -42,8 +43,8 @@ const LifeformEntry = ({ model_path, model_type, life_form_name }) => {
 		<div>
 			<h1 className="text-white text-3xl text-right p-1">Lifeform #0</h1>
 
-			<Entry title={life_form_name ? life_form_name : ""}>
-				<Canvas style={{ height: 500, width: 500 }}>
+			<Showcase what_to_showcase={life_form_name} title={life_form_name ? life_form_name : ""}>
+				<Canvas style={{ display: 'inline-block', height: 320 }}>
 					<Suspense>
 						{/* <OBJScene path={model_path} /> */}
 						<GLTFScene path={model_path} />
@@ -52,7 +53,7 @@ const LifeformEntry = ({ model_path, model_type, life_form_name }) => {
 						<OrbitControls />
 					</Suspense>
 				</Canvas>
-			</Entry>
+			</Showcase	>
 		</div>
 	);
 };
